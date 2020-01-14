@@ -1,0 +1,30 @@
+ul {
+  display: inline-block;
+}
+
+body {
+  width: 40%;
+  padding-left: 100px;
+}
+
+.project-panel {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 148px;
+  background-image: url("images/pic.png");
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.project-title {
+  padding: 0px;
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
